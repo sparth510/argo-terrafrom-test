@@ -3,7 +3,7 @@ provider "kubernetes" {
 }
 resource "kubernetes_namespace" "test" {
   metadata {
-    name = "nginx"
+    name = "argo"
   }
 }
 resource "kubernetes_deployment" "test" {
